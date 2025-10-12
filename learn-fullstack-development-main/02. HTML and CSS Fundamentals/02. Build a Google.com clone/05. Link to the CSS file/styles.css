@@ -1,4 +1,11 @@
-body {
-    background: red;
+.main{
+    margin-top: 100px;
 }
-
+.google_image{
+    width: 300px;
+    display: block;
+}
+.Enter_text{
+    width: 400px;
+    display: block;
+}

@@ -1,4 +1,10 @@
 body {
     margin: 10px;
 }
+.bold {
+    font-weight: bold;
+}
 
+article{
+    text-align: center;
+}

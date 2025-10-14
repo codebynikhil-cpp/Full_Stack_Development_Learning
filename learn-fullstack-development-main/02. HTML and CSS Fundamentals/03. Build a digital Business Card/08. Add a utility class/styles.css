@@ -4,14 +4,16 @@ body {
 
 .avatar {
     width: 150px;
+    
 }
 
 .card {
-    border: 1px dotted blue;
     padding: 20px;
     display: flex;
 }
-
+.border{
+    border: 1px dotted blue;
+}
 /*
 Challenge:
 Create a utility class for the dotted blue border.

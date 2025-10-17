@@ -19,6 +19,9 @@ width to a suitable level.
     font-family: 'Orbitron', sans-serif;
 }
 
-.underline {
+#underline {
     border-bottom: 4px solid white;
+}
+#main_logo{
+    width: 100px;
 }

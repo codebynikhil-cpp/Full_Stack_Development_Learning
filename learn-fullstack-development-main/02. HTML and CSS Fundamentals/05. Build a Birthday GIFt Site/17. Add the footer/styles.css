@@ -81,7 +81,14 @@ h1, h2, h3, h4, p {
 #gift-img-cheers:hover {
     background-image: url("images/cheers.gif");
 }
-
+a{
+    color: white;
+    font-style: italic;
+}
+#footer{
+    width: 400px;
+    margin: 40px auto 20px;
+}
 /* 
 Add the footer paragraph according to the design. 
 Configure the anchor tag to open the link in a new tab.

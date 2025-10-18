@@ -65,25 +65,27 @@ h1, h2, h3, h4, p {
 #gift-img-hot:hover {
     background-image: url("images/hot.gif");
 }
-
 #gift-img-genius:hover {
     background-image: url("images/genius.gif");
 }
-
 #gift-img-badass:hover {
     background-image: url("images/badass.gif");
 }
+#gift-img-cheers{
+    height: 200px;
+}
+#gift-img-cheers:hover {
+    background-image: url("images/cheersrio.gif");
+}
+
 
 /*
 Challenge:
-Create the "cheers" GIFt section.
+Create the "genius" and "badass" GIFt sections.
 
-Note: this GIFt should have a height of 200px. 
-Select the #gift-img-cheers id and override 
-the height that the element got from the 
-.gift-img class.
+Texts:
+If I had to describe you with ONE word 👇
 
-Text: 
-This one's for you, my friend 🥂
+The only person as badass as you 💪
+
 */
-

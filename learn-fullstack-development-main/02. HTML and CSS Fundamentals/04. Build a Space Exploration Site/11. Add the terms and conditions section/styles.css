@@ -10,13 +10,16 @@ section.
 PS: your layout will likely be disturbed by the <body> 
 tag's default margin.
 */
-
-body {
+body{
+    margin: 0px;
     color: #82a5ca;
-    background-image: url("images/galaxy.webp");
-    background-size: cover;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
+}
+#hero {
+    background-image: url("images/galaxy.webp");
+    background-size: cover;
+    padding: 10px 0 40px 0;
 }
 
 #main-logo {
@@ -35,4 +38,3 @@ body {
 .underline {
     border-bottom: 4px solid white;
 }
-   

@@ -5,3 +5,7 @@
 // Log myGreeting to the console
 
 
+let name = "Nikhil";
+let greeting = "Hi, My name is ";
+let myGreeting = greeting + name 
+console.log(myGreeting)

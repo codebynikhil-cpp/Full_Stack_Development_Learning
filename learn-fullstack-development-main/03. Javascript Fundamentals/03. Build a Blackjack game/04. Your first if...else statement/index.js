@@ -6,3 +6,5 @@ let age = 22
 // if less than 21 -> "You can not enter the club!"
 // else            -> "Welcome!"
 
+if(age>=21) console.log("Welcome!")
+else console.log("You can not enter the club!")

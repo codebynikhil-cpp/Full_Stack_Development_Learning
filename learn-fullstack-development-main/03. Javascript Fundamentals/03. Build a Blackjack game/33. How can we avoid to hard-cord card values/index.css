@@ -18,7 +18,6 @@ h1 {
 /* 3. Make sure that the two buttons have some space between
 each other when they are rendered out vertically */
 button {
-    margin: 4px;
     color: #016f32;
     width: 150px;
     background: goldenrod;
@@ -27,4 +26,6 @@ button {
     font-weight: bold;
     border: none;
     border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
 }

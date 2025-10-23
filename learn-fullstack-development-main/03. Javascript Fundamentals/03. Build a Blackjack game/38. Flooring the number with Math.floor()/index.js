@@ -9,6 +9,7 @@ console.log(flooredNumber)
 
 What does Math.floor() do to positive numbers?
 
-Your answer: 
+Your answer: it's answer the lower bound of the value
+Your answer: remove the decimal
 
 */

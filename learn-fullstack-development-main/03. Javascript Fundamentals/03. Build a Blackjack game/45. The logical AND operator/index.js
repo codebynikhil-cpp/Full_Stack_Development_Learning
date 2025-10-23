@@ -6,6 +6,9 @@ if (hasCompletedCourse === true) {
         generateCertificate()
     }
 }
+if (hasCompletedCourse && givesCertificate ) {
+    generateCertificate()
+}
 
 function generateCertificate() {
     console.log("Generating certificate....")

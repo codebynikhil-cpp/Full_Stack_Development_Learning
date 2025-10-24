@@ -59,7 +59,7 @@ To access and execute the project code within a specific lesson folder:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [repository-url]
+    git clone [(https://github.com/codebynikhil-cpp/Full_Stack_Development_Learning.git)]
     ```
 2.  **For HTML/CSS/JS Lessons:** Navigate to the desired folder and open `index.html` directly in your web browser.
 3.  **For React.js Lessons (within `15. React.js Fundamentals`):**

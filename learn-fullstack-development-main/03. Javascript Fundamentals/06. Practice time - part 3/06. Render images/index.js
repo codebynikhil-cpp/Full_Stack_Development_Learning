@@ -10,10 +10,10 @@ const imgs = [
 
 const container = document.getElementById("container");
 function render(){
-    let imagsDOM = ""
+    let imagesDOM = ""
     for(let i=0; i<imgs.length; i++){
-        imagsDOM += `<img alt="Employee in the company" class="team-img" src="${imgs[i]}">`
+        imagesDOM += `<img alt="Employee in the company" class="team-img" src="${imgs[i]}">`
     }
-    container.innerHTML = imagsDOM
+    container.innerHTML = imagesDOM
 }
 render();

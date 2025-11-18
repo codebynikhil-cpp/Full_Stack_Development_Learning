@@ -1,5 +1,5 @@
 1) What are 3 things your computer (client) might request from a server?
-
+- 
 
 2) What is the main job of a server?
 

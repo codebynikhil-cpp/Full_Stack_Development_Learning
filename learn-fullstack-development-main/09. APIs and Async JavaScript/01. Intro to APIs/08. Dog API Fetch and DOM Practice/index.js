@@ -1,12 +1,11 @@
-/**
-Challenge:
+const container = document.getElementById("dog-container");
 
-1. Fetch a random image from the Dog API again 
-(https://dog.ceo/api/breeds/image/random)
+async function loadDog() {
+  const res = await fetch("https://dog.ceo/api/breeds/image/random");
+  const data = await res.json();
 
-2. Access the DOM and insert the URL you got from the
-API as an image `src` property (probably easiest if 
-you create the image completely here in the JS and add 
-it as the innerHTML of another element on the DOM)
-*/
+  const imgURL = data.message;
+  container.innerHTML = `<img src="${imgURL}" width="300">`;
+}
 
+loadDog();

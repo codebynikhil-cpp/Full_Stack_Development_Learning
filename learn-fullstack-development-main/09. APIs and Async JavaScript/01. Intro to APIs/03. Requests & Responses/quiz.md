@@ -1,8 +1,11 @@
-1) What are 3 things your computer (client) might request from a server?
-- 
+1. Three things a client might request from a server
 
-2) What is the main job of a server?
+   1. Retrieve a resource (e.g., `GET /document.xml` — an XML of the document).
+   2. Request data (e.g., `GET /api/teachers/salaries` or `POST /api/teachers/query`).
+   3. Send an action/acknowledgement (e.g., `POST /confirm` to send a confirmation response).
 
+2. Main job of a server
+   Process incoming client requests, run the required logic (fetch/update/store data), and return the appropriate response (plus handle security, validation and persistence).
 
-3) Self study: what would the 3-digit server response code 
-be if the server experiences an internal server error?
+3. 3-digit code for an internal server error
+   **500**

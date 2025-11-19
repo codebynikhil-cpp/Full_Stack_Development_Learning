@@ -1,9 +1,10 @@
-/**
-Challenge: 
+const container = document.getElementById("activity");
 
-1. Fetch a random activity from the Bored API
-url: https://apis.scrimba.com/bored/api/activity
+async function loadActivity() {
+  const res = await fetch("https://apis.scrimba.com/bored/api/activity");
+  const data = await res.json();
 
-2. Display the text of the activity in the browser
-*/
+  container.textContent = data.activity;
+}
 
+loadActivity();

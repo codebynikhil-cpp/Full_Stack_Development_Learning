@@ -93,6 +93,7 @@ async function fetchReport(data) {
  *    work with: Process times are long and results are gibberish.    
  **/
             model: 'gpt-4',
+            temperature: 0.2,
             messages: messages,
         })
         renderReport(response.choices[0].message.content)

@@ -14,6 +14,7 @@ Challenge:
    Content-Type to ‘application/json’ - watch out for casing! 
 */
     res.end(JSON.stringify(destinations))
+    res.setHeader('Content-Type','application/json')
   }
 })
 

@@ -1,0 +1,17 @@
+.main {
+    margin-top: 100px;    
+}
+
+.logo-img {
+    display: block;
+    width: 300px;
+    margin-bottom: 20px;
+    align-content: center;
+    margin: auto;
+}
+
+.search-input {
+    display: block;
+    width: 400px;
+    margin: auto;
+}

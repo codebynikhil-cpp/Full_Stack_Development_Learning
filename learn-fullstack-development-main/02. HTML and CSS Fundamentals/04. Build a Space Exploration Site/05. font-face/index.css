@@ -1,0 +1,14 @@
+@font-face {
+    src: url("Corleone.ttf");
+    font-family: Corleone;
+}
+@font-face {
+    font-family: got;
+    src: url(manuskript-gothisch.regular.ttf);
+}
+h1 {
+    font-family: Corleone;
+}
+h2{
+    font-family: got;
+}

@@ -1,0 +1,14 @@
+div:hover{
+    /* background-color: #ba181b; */
+    background-image: url(eyes.jpg);
+}
+
+div {
+    text-align: center;
+    color: white;
+    margin: 5px;
+    padding: 25px 0;
+    background: #e5383b;
+    font-size: 30px;
+    font-weight: bold;
+}

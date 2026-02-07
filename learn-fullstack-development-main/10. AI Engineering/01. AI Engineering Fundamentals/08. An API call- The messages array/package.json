@@ -8,7 +8,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "dotenv": "^17.2.4",
     "vite": "latest"
   }
 }
+=======
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
+>>>>>>> 690e688837383219012763e53a9a202306172327

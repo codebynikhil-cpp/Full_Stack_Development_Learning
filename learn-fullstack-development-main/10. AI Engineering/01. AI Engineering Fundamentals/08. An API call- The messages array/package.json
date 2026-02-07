@@ -1,5 +1,6 @@
 {
   "name": "Scrim-s05p9lq",
+  "type": "module",
   "description": "https://scrimba.com/fullstack-path-c0fullstack/~04e6/s0p3nmr6ks/head",
   "scripts": {
     "start": "vite",
@@ -8,14 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "dotenv": "^17.2.4",
-    "vite": "latest"
-  }
-}
-=======
-    "vite": "latest"
+    "vite": "latest",
+    "dotenv": "latest",
+    "openai": "latest"
   },
   "devDependencies": {}
 }
->>>>>>> 690e688837383219012763e53a9a202306172327

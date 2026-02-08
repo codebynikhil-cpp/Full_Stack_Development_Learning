@@ -2,6 +2,7 @@ import http from 'node:http'
 import { getDataFromDB } from './database/db.js'
 import { sendJSONResponse } from './utils/sendJSONResponse.js'
 import { getDataByPathParams } from './utils/getDataByPathParams.js'
+import { fileURLToPath } from 'node:url'
 
 const PORT = 8000
 
@@ -14,17 +15,19 @@ const server = http.createServer(async (req, res) => {
      hint.md for help!
 */
 
-  const urlObj = // Use the URL constructor and pass in the relative and base urls.
+  const urlObj = new URL(req.url, `http//:${req.headers.host}`)
 
-  const queryObj = // Use the fromEntries() method on the Object class .
-                   // What do you need to pass in? 
+  const queryObj = Object.fromEntries(urlobj.searchParams)
 
   console.log(queryObj)
 
 
   if (req.url === '/api' && req.method === 'GET') {
+    let filteredDestination = destinations
 
-    sendJSONResponse(res, 200, destinations)
+    //update filteredDestinations
+
+    sendJSONResponse(res, 200, filteredDestination)
 
   } else if (req.url.startsWith('/api/continent') && req.method === 'GET') {
 

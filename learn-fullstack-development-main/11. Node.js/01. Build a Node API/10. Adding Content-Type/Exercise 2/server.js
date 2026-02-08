@@ -14,6 +14,12 @@ Challenge:
    Content-Type to ‘application/json’ - watch out for casing! 
 */
     res.end(JSON.stringify(destinations))
+    res.setHeader('Content-Type','application/json')
+    res.statusCode = 200
+  }else{
+    res.setHeader('Content-Type', 'application/json')
+    res.statusCode = 404
+    res.end(JSON.stringify({error: "not found", message: "The requested route does not exist"}))
   }
 })
 

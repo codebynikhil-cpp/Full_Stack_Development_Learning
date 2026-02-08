@@ -10,7 +10,15 @@ const server = http.createServer(async (req, res) => {
     res.setHeader('Content-Type', 'application/json')
     res.statusCode = 200
     res.end(JSON.stringify(destinations))
-  } else if (x) {
+  } else if (req.url.startsWith('/api/continent') && req.method === 'GET') {
+    const continent = req.url.split('/').pop();
+    const filteredData = destinations.filter((destinations)=>{
+      return destinations.continent.toLowerCase() === continent.toLowerCase()
+    })
+    res.setHeader('Content-Type', 'application/json')
+    res.statusCode = 200
+    res.end(JSON.stringify(destinations))
+   
   /*
   Challenge:
   1. Check if the url starts with “/api/continent”.
